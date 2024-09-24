@@ -605,6 +605,7 @@ footer .social a:hover {
   }
   .about {
     flex-direction: column-reverse;
+    width:auto;
   }
   .about-circle {
     height: 52vw;
