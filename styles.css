@@ -123,9 +123,12 @@ section {
 }
 
 .home-content h3 {
-  font-size: 3.2rem;
-  font-weight: 700;
+  font-size: 2rem;
+  font-weight: 500;
+  font-style: italic;
+  text-transform:capitalize
 }
+
 
 .home-content h3:nth-of-type(2) {
   margin-bottom: 2rem;
@@ -250,7 +253,7 @@ section {
 }
 
 .about-content p {
-  font-size: 1.6rem;
+  font-size: 2rem;
   margin: 2rem 0 3rem;
 }
 
@@ -542,6 +545,7 @@ footer .social a:hover {
     right: 1rem;
     z-index: 1;
     
+    
   }
   .navbar {
     position: absolute;
@@ -556,15 +560,20 @@ footer .social a:hover {
     display: none;
     
     
+    
   }
   .navbar.active {
     display: block;
+    
+    
   }
   .navbar a {
     display: block;
     color: black;
     font-size: 2rem;
     margin: 3rem 0;
+    
+    
   }
 
   .navbar a:hover {
